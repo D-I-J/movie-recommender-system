@@ -15,20 +15,13 @@ public class MovieRecommenderSystemApplication {
 
 		//use ApplicationContext to get recommender object
 		RecommenderImplementation recommender = appContext.getBean(RecommenderImplementation.class);
-
-		System.out.println();
-		System.out.println();
 		System.out.println(recommender);
 
-		//call method to get recommendations
-		String[] result = recommender.recommendMovies("Finding Dory");
+		Movie m1 = appContext.getBean(Movie.class);
+		System.out.println(m1);
 
-		//display results
-		System.out.println();
-		System.out.println();
-		System.out.println(Arrays.toString(result));
-
-
+		Movie m2 = appContext.getBean(Movie.class);
+		System.out.println(m2);
 	}
 
 }
