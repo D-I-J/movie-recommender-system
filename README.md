@@ -1,14 +1,10 @@
 # movie-recommender-system
-A simple Spring Boot Learning Project.
+A simple Spring Learning Project.
 
 
 Understanding Spring Basics
 
-Creating a Project
-
-Dependency
-
-Decoupling Components
+How to Create a Project
 
 Managing Beans and Dependencies
 
@@ -29,4 +25,3 @@ Mixing Bean Scope
 Bean Lifecycle: @PostConstruct, @ PreDestroy
 
 Bean Lifecycle: Prototype Scoped Beans
-
